@@ -112,3 +112,20 @@ a {
   color: #1f2937;
   font-size: 18px;
 }
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+  max-width: 825px;
+}
+
+.quote .speaker {
+  font-size: 24px;
+  font-weight: 900; 
+}
