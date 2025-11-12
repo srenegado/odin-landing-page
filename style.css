@@ -160,3 +160,11 @@ a {
   border-style: solid;
   border-color: #f9faf8;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 18px;
+  text-align: center;
+  padding: 48px;
+}
