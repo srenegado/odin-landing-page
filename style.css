@@ -78,26 +78,37 @@ a {
   max-width: 500px;
 }
 
-
 .information .title {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+  padding: 48px 250px;
+  text-align: center;
+}
+
+.information .content {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 150px;
 }
 
 .figure {
-  max-width: 150px;
+  max-width: 175px;
+  text-align: center;
 }
 
 .information .placeholder-img {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   border-style: solid;
   border-width: 4px;
   border-radius: 16px;
   border-color: #3882f6;
+  margin-bottom: 8px;
 }
 
 .information .subtext {
   color: #1f2937;
+  font-size: 18px;
 }
