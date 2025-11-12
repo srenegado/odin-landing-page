@@ -24,7 +24,7 @@ a,
   padding: 250px
 }
 
-.content {
+.hero .content {
   max-width: 450px;
 }
 
@@ -46,7 +46,7 @@ a {
   text-decoration: none;
 }
 
-.title {
+.hero .title {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
@@ -67,7 +67,7 @@ a {
   font-weight: 900;
 }
 
-.placeholder-img {
+.hero .placeholder-img {
   font-size: 18px;
   color: white;
   background-color: darkgrey;
