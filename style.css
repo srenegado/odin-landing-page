@@ -135,3 +135,28 @@ a {
   margin-right: 500px;
   padding-bottom: 100px;
 }
+
+.call-to-action {
+  padding: 100px 250px;
+}
+
+.card {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 120px;
+}
+
+.card .title {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.card .sign-up {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #f9faf8;
+}
