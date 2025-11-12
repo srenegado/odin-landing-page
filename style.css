@@ -21,7 +21,7 @@ a,
 }
 
 .hero {
-  padding: 250px
+  padding: 250px;
 }
 
 .hero .content {
@@ -76,4 +76,28 @@ a {
   align-items: center;
   flex: 1;
   max-width: 500px;
+}
+
+
+.information .title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.figure {
+  max-width: 150px;
+}
+
+.information .placeholder-img {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 16px;
+  border-color: #3882f6;
+}
+
+.information .subtext {
+  color: #1f2937;
 }
