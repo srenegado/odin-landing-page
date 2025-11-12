@@ -6,12 +6,26 @@ body {
 .header,
 .hero {
   background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
 }
 
 a,
 .subtitle {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.header {
+  padding: 16px 250px;
+}
+
+.hero {
+  padding: 250px
+}
+
+.content {
+  max-width: 450px;
 }
 
 .logo {
@@ -24,6 +38,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  gap: 24px;
 }
 
 a {
@@ -34,6 +50,11 @@ a {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-bottom: 16px;
 }
 
 .sign-up {
@@ -50,4 +71,9 @@ a {
   font-size: 18px;
   color: white;
   background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  max-width: 500px;
 }
